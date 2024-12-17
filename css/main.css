@@ -163,7 +163,13 @@ main .menu .cards {
 main .menu .cards .card {
   max-width: 351px;
 }
-main .menu .cards .card .back {
+main .menu .cards .card .photo {
+  max-width: 351px;
+  height: 350px;
+  position: relative;
+  transition: all 1s ease;
+}
+main .menu .cards .card .photo .back {
   width: 100%;
   height: 100%;
   background-color: rgba(78, 159, 13, 0.5019607843);
@@ -173,17 +179,11 @@ main .menu .cards .card .back {
   align-items: center;
   justify-content: center;
 }
-main .menu .cards .card .back p {
+main .menu .cards .card .photo .back p {
   font-size: 24px;
   font-weight: 600;
   line-height: 28.18px;
   color: #FFFFFF;
-}
-main .menu .cards .card .photo {
-  max-width: 351px;
-  height: 350px;
-  position: relative;
-  transition: all 1s ease;
 }
 main .menu .cards .card .photo button {
   font-size: 24px;
