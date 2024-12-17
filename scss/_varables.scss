@@ -1,0 +1,23 @@
+$green:#4E9F0D;
+$white:#FFFFFF;
+$black:#000000;
+$light-color:#ffffff7e;
+$grey:#7A7A7A;
+@mixin text-p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: $white;
+}
+@mixin centerC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+@mixin centerR{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

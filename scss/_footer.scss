@@ -1,0 +1,58 @@
+footer{
+    padding: 44px 0 47px 0;
+    background-color: $black;
+    
+    .section{
+        .top{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 52px;
+            h2{
+                font-family: "Roboto";
+                color: $green;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 28.18px;
+            }
+            h3{
+                color: $white;
+                background-color: $green;
+                width: 160px;
+                height: 30px;
+                @include centerR;
+                transition: all 1s ease;
+                border: 1px solid $green;
+                &:hover{
+                    color: $green;
+                    background-color: rgba(127, 255, 212, 0);
+                    
+                }
+            }
+        }
+        .center{
+            margin-bottom: 34px;
+            ul{
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                
+                li{
+                    a{
+                        transition: all 0.5s ease;
+                        color:$white;
+                        &:hover{
+                            color: $green;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .bottom{
+            p{
+                color: $light-color;
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+section{
+    background-image: url(../img/bg-2.png);
+    background-size: cover;
+    background-position: center;
+    padding: 42px 0 75px 0;
+    .resept{
+        h2{
+            color: $green;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 42.26px;
+            text-align: center;
+            margin-bottom: 36px
+        }
+        p{
+            @include text-p;
+            margin: 25px 0;
+        }
+    }
+}

@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Signika:wght@300..700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Raleway", serif;
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+header {
+  background-image: url(../img/bg_img\ 1.png);
+  background-size: cover;
+  background-position: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 90px;
+}
+header nav .logo {
+  background-color: #4E9F0D;
+  width: 160px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #4E9F0D;
+  transition: all 1s ease;
+}
+header nav .logo:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #4E9F0D;
+}
+header nav .logo a {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+}
+header nav ul {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+header nav ul li {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 127px;
+  height: 90px;
+  transition: all 1s ease;
+}
+header nav ul li:hover {
+  background-color: #4E9F0D;
+}
+header nav ul li:hover a {
+  transition: all 1s ease;
+  color: #FFFFFF;
+}
+header nav ul li span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  color: #4E9F0D;
+}
+header nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.13px;
+  color: #4E9F0D;
+}
+header .hero {
+  padding: 63.5px 0;
+}
+header .hero h1 {
+  color: #4E9F0D;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 84.53px;
+  margin-bottom: 20px;
+}
+header .hero h3 {
+  color: #4E9F0D;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42.26px;
+  margin-bottom: 30px;
+}
+header .hero p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+header .hero .bt {
+  max-width: 350px;
+}
+header .hero button {
+  width: 100%;
+  height: 100px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 70.44px;
+  background-color: #4E9F0D;
+  color: #FFFFFF;
+  border: 1px solid #4E9F0D;
+  transition: all 0.5s ease;
+}
+header .hero button:hover {
+  color: #4E9F0D;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+main {
+  background-color: #000000;
+  padding-top: 47px;
+  padding-bottom: 85px;
+}
+main .menu {
+  display: flex;
+  flex-direction: column;
+}
+main .menu ul {
+  display: flex;
+  margin: 0 0 74px 0;
+  -moz-column-gap: 44px;
+       column-gap: 44px;
+}
+main .menu ul li a {
+  color: #7A7A7A;
+}
+main .menu ul li a:hover {
+  color: #4E9F0D;
+  transition: all 0.7s ease;
+}
+main .menu .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 60px;
+}
+main .menu .cards .card {
+  max-width: 351px;
+}
+main .menu .cards .card .back {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(78, 159, 13, 0.5019607843);
+  transform: scale(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .menu .cards .card .back p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.18px;
+  color: #FFFFFF;
+}
+main .menu .cards .card .photo {
+  max-width: 351px;
+  height: 350px;
+  position: relative;
+  transition: all 1s ease;
+}
+main .menu .cards .card .photo button {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.18px;
+  color: #FFFFFF;
+  width: 190px;
+  height: 60px;
+  background-color: #4E9F0D;
+  position: absolute;
+  border: 1px solid #4E9F0D;
+  left: 0;
+  top: 290px;
+  z-index: 1;
+  transform: scale(1);
+  transition: all 0.7s ease;
+}
+main .menu .cards .card .photo:hover > div {
+  transform: scale(1);
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main .menu .cards .card .photo:hover > button {
+  transform: scale(0);
+}
+main .menu .cards .card .photo img {
+  width: 100%;
+  height: 100%;
+}
+main .menu .cards .card .card-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+  color: #4E9F0D;
+  margin: 36px 0 7px 0;
+}
+main .menu .cards .card .card-info p {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+section {
+  background-image: url(../img/bg-2.png);
+  background-size: cover;
+  background-position: center;
+  padding: 42px 0 75px 0;
+}
+section .resept h2 {
+  color: #4E9F0D;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.26px;
+  text-align: center;
+  margin-bottom: 36px;
+}
+section .resept p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  color: #FFFFFF;
+  margin: 25px 0;
+}
+
+.location {
+  padding-top: 42px;
+  background-color: #000000;
+}
+.location h2 {
+  color: #4E9F0D;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+  text-align: center;
+  margin-bottom: 46px;
+}
+.location iframe {
+  width: 100%;
+}
+
+footer {
+  padding: 44px 0 47px 0;
+  background-color: #000000;
+}
+footer .section .top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+footer .section .top h2 {
+  font-family: "Roboto";
+  color: #4E9F0D;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.18px;
+}
+footer .section .top h3 {
+  color: #FFFFFF;
+  background-color: #4E9F0D;
+  width: 160px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 1s ease;
+  border: 1px solid #4E9F0D;
+}
+footer .section .top h3:hover {
+  color: #4E9F0D;
+  background-color: rgba(127, 255, 212, 0);
+}
+footer .section .center {
+  margin-bottom: 34px;
+}
+footer .section .center ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+footer .section .center ul li a {
+  transition: all 0.5s ease;
+  color: #FFFFFF;
+}
+footer .section .center ul li a:hover {
+  color: #4E9F0D;
+}
+footer .section .bottom p {
+  color: rgba(255, 255, 255, 0.4941176471);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding-top: 10px;
+  }
+  header nav {
+    flex-direction: column;
+  }
+  header nav ul {
+    margin-top: 5px;
+    -moz-column-gap: 5px;
+         column-gap: 5px;
+  }
+  main .menu {
+    align-items: center;
+  }
+  main .menu ul {
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  main .menu .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 660px) {
+  footer .section .center ul {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 625px) {
+  main .menu {
+    align-items: center;
+  }
+  main .menu ul {
+    gap: 20px;
+  }
+  main .menu .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  section {
+    padding-inline: 15px;
+  }
+  section .resept p {
+    font-size: 15px;
+  }
+  footer .section .top {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  footer .section .center ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 529px) {
+  header nav {
+    flex-direction: row;
+  }
+  header nav ul {
+    display: none;
+  }
+  header .hero h1 {
+    font-size: 60px;
+  }
+  header .hero p {
+    font-size: 15px;
+  }
+  header .hero button {
+    width: 60%;
+    font-size: 45px;
+  }
+  main .menu ul {
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: center;
+  }
+}/*# sourceMappingURL=main.css.map */
