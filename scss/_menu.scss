@@ -27,13 +27,11 @@ main{
             gap: 40px 60px ;
             .card{
                 max-width: 351px;
-              
-               
                 .photo{
                     max-width: 351px;
                     height: 350px;
                     position: relative;
-                    transition: all 1s ease;
+                    
                     .back{
                         width:100%;
                         height: 100%;

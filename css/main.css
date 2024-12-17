@@ -167,7 +167,6 @@ main .menu .cards .card .photo {
   max-width: 351px;
   height: 350px;
   position: relative;
-  transition: all 1s ease;
 }
 main .menu .cards .card .photo .back {
   width: 100%;
